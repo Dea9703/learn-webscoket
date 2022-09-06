@@ -67,7 +67,7 @@ wss.on('connection', function connection(ws) {
 });
 
 app.get('/', function (req, res) {
-  res.sendfile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/index.html');
 });
 
 app.listen(3000);
